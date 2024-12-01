@@ -514,12 +514,17 @@ ul li {
   }
 }
 body {
+<<<<<<< HEAD
   opacity: 0;
+=======
+	opacity: 0;
+>>>>>>> d0af44a (Add background)
   /* background: radial-gradient(
     ellipse at bottom,
     var(--bgColor) 0%,
     var(--bgColor2) 100%
   ); */
+<<<<<<< HEAD
   background-image: url("../images/background.avif");
   animation: 1s ease-out var(--delay) 1 transitionAnimation;
   animation-fill-mode: forwards;
@@ -534,6 +539,16 @@ body {
   z-index: 0;
   position: relative;
   zoom: 300%;
+=======
+  background-image: url("../images/background.jxl");
+	animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
+	animation-fill-mode: forwards;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  height: 100vh;
+  background-blend-mode: overlay;
+>>>>>>> d0af44a (Add background)
 }
 :root {
   --bgColor: rgb(20, 13, 17);
