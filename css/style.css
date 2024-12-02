@@ -525,6 +525,7 @@ body {
     var(--bgColor2) 100%
   ); */
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-image: url("../images/background.avif");
   animation: 1s ease-out var(--delay) 1 transitionAnimation;
   animation-fill-mode: forwards;
@@ -541,6 +542,9 @@ body {
   zoom: 300%;
 =======
   background-image: url("../images/background.jxl");
+=======
+  background-image: url("../images/background.avif");
+>>>>>>> 355338f (Replace JPEGXL with AVIF)
 	animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
 	animation-fill-mode: forwards;
 	background-repeat: no-repeat;
