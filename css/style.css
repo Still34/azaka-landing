@@ -87,6 +87,7 @@
     padding-left: 0;
     padding-right: 0;
   }
+<<<<<<< HEAD
   body {
     background-attachment: fixed;
   }
@@ -95,6 +96,10 @@
   body {
     background-attachment: scroll;
   }
+=======
+}
+@media (min-width: 34.375rem) {
+>>>>>>> b8648be (Overhaul appearance)
   .container > .wrapper {
     width: 100%;
     max-width: 64em;
@@ -515,10 +520,14 @@ ul li {
 }
 body {
 <<<<<<< HEAD
+<<<<<<< HEAD
   opacity: 0;
 =======
 	opacity: 0;
 >>>>>>> d0af44a (Add background)
+=======
+  opacity: 0;
+>>>>>>> b8648be (Overhaul appearance)
   /* background: radial-gradient(
     ellipse at bottom,
     var(--bgColor) 0%,
@@ -532,6 +541,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+<<<<<<< HEAD
   /* height: 100vh; */
   min-height: 100vh;
   background-blend-mode: overlay;
@@ -550,9 +560,24 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+=======
+>>>>>>> b8648be (Overhaul appearance)
   height: 100vh;
   background-blend-mode: overlay;
 >>>>>>> d0af44a (Add background)
+}
+<<<<<<< HEAD
+:root {
+  --bgColor: rgb(20, 13, 17);
+  --bgColor2: #111317;
+  --accentColor: #fff;
+  --delay: 0.3s;
+}
+=======
+.animated-background {
+  z-index: 0;
+  position: relative;
+  zoom: 300%;
 }
 :root {
   --bgColor: rgb(20, 13, 17);
@@ -560,6 +585,7 @@ body {
   --accentColor: #fff;
   --delay: 0.3s;
 }
+>>>>>>> b8648be (Overhaul appearance)
 #stars1,
 #stars2,
 #stars3 {
