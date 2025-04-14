@@ -88,11 +88,16 @@
     padding-right: 0;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   body {
+=======
+  body{
+>>>>>>> 50f7cb3 (Fix background blur)
     background-attachment: fixed;
   }
 }
 @media (min-width: 34.375rem) {
+<<<<<<< HEAD
   body {
     background-attachment: scroll;
   }
@@ -100,6 +105,11 @@
 }
 @media (min-width: 34.375rem) {
 >>>>>>> b8648be (Overhaul appearance)
+=======
+  body{
+    background-attachment: scroll;
+  }
+>>>>>>> 50f7cb3 (Fix background blur)
   .container > .wrapper {
     width: 100%;
     max-width: 64em;
@@ -199,7 +209,11 @@ body {
 
 /* Container spacing */
 .container {
+<<<<<<< HEAD
   padding: var(--spacing-xl) var(--spacing-m) var(--spacing-xl) var(--spacing-m);
+=======
+  padding: var(--spacing-xl) var(--spacing-m) var(--spacing-xl)  var(--spacing-m);
+>>>>>>> 50f7cb3 (Fix background blur)
   text-align: center;
 }
 
@@ -542,8 +556,13 @@ body {
   background-size: cover;
   position: relative;
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* height: 100vh; */
   min-height: 100vh;
+=======
+  /* height: 100vh; */
+  min-height:100vh;
+>>>>>>> 50f7cb3 (Fix background blur)
   background-blend-mode: overlay;
 }
 .animated-background {
