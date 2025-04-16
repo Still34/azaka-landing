@@ -28,10 +28,10 @@
   margin: 0 auto 0 auto;
   background-image: linear-gradient(
     45deg,
-    hsl(310deg 9% 50% / 30%) 0%,
-    hsl(310deg 12% 60% / 10%) 80%
+    hsl(310deg 15% 80% / 30%) 50%,
+    hsl(310deg 12% 90% / 10%) 80%
   );
-  animation: shimmer 10s ease-in-out infinite;
+  animation: shimmer 15s ease-in-out infinite;
   background-size: 400% 400%;
   border-radius: 6rem;
   backdrop-filter: blur(15px);
