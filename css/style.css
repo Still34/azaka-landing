@@ -49,6 +49,43 @@
   }
 }
 
+
+.button .tooltip-text {
+  visibility: hidden;
+  width: 18.75rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 100%; /* Position below */
+  left: 75%;
+  transform: translateX(-75%);
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.button .tooltip-text::after {
+  content: '';
+  position: absolute;
+  bottom: 100%; /* Arrow on top of tooltip */
+  left: 75%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #333 transparent;
+}
+
+.button:hover .tooltip-text,
+.button:focus .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(10px); /* Animate down */
+}
+
 .container > .wrapper > .inner {
   --gutters: 2rem;
   --padding-horizontal: 5rem;
