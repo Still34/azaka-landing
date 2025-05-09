@@ -629,3 +629,9 @@
     --button-text: #000000;
     --button-background: #b8ff26;
 }
+
+/* StreamElements */
+.button-streamelements {
+    --button-text: #ffffff;
+    --button-background: hsl(227, 60%, 40%);
+}
