@@ -612,6 +612,12 @@
 	--button-background:#FF0000;
 }
 
+/* YouTube music */
+.button-yt-music {
+	--button-text:#ffffff;
+	--button-background:#ff4444;
+}
+
 /* Zoom */
 .button-zoom {
 	--button-text:#ffffff;
