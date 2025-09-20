@@ -49,6 +49,9 @@
   }
 }
 
+.footnote {
+  font-size: 0.8em;
+}
 
 .button .tooltip-text {
   visibility: hidden;
@@ -171,9 +174,9 @@ h1 {
   overflow-wrap: break-word;
   hyphens: auto; /* Delete this to remove automatic hyphen on line break */
 }
-.container p {
+/* .container p {
   margin: 0 0 2rem 0;
-}
+} */
 
 /* Base Typography Settings
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -225,7 +228,7 @@ body {
 }
 .container p {
   /* margin: 0 0 var(--spacing-xl) 0; */
-  font-size: var(--scale-1);
+  /* font-size: var(--scale-1); */
   line-height: 1.6;
 }
 
