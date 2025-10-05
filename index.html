@@ -95,6 +95,17 @@
     }
   }
   </script>
+  <script>
+    function copyToClipboard() {
+      const text = "bc1qswn75nlch3ysf90gje7gwmsjm2uwg9ljwmrpgg";
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+        }).catch(err => {
+          console.error('Failed to copy:', err);
+        });
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -176,6 +187,17 @@
                   alt="VGen Logo">VGen
                   <span class="tooltip-text">Translation services and more!</span>
               </a>
+              <a class="button button-default" onclick="copyToClipboard()" role="button">
+                <img class="icon" aria-hidden="true" src="images/icons/cash-app-btc.svg">BTC
+                <span class="tooltip-text">Click to copy address</span>
+              </a>
+              <noscript>
+                <div class="button button-default">
+                  <input class="btc-value" type="text" value="bc1qswn75nlch3ysf90gje7gwmsjm2uwg9ljwmrpgg" readonly
+                    style="border: none; background: transparent; width: 100%; text-align: center; cursor: text; font: inherit; color: inherit;"
+                    onfocus="this.select();">
+                </div>
+              </noscript>
             </div>
             <div class="section">
               <header>Channels</header>
