@@ -641,3 +641,9 @@
     --button-text: #ffffff;
     --button-background: hsl(227, 60%, 40%);
 }
+
+/* ProtonDrive */
+.button-protondrive {
+    --button-text: #ffffff;
+    --button-background: #6348d6;
+}
