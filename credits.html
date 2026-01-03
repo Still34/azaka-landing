@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+
+<!-- 
+  To change the theme, change the class on the html tag below to one of:
+  - theme-auto: Automatically switches based on user's system preferences
+  - theme-light: Forces light theme
+  - theme-dark: Forces dark theme
+-->
+
+<html class="theme-dark" lang="en">
+<!-- Update`class="theme-auto" with your preference -->
+
+<head>
+    <!-- Essential Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page Title -->
+    <title>Credits</title>
+
+    <!-- Meta Description -->
+    <meta name="description"
+        content="thanks to everyone that helped with everything!!">
+
+    <!-- Keywords -->
+    <meta name="keywords"
+        content="VTuber, threat intelligence, cybersecurity, Azaka Sekai, streaming, anime, security research">
+
+    <!-- Author Information -->
+    <meta name="author" content="AzakaSekai">
+    <meta name="robots" content="index, nofollow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://links.azaka.fun/credits.html">
+
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/x-icon" href="/images/avatar.png">
+
+    <!-- Theme Colors -->
+    <meta name="theme-color" content="#f69cab">
+    <meta name="msapplication-TileColor" content="#f69cab">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Azaka Sekai">
+    <meta property="og:title" content="Credits">
+    <meta property="og:description"
+        content="thanks to everyone that helped with everything!!">
+    <meta property="og:url" content="https://links.azaka.fun">
+    <meta property="og:image"
+        content="https://links.azaka.fun/images/og-banner.png">
+    <meta property="og:image:width" content="1184">
+    <meta property="og:image:height" content="689">
+    <meta property="og:image:alt" content="Azaka Sekai avatar and branding">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@AzakaSekai_">
+    <meta name="twitter:creator" content="@AzakaSekai_">
+    <meta name="twitter:title" content="Credits">
+    <meta name="twitter:description"
+        content="thanks to everyone that helped with everything!!">
+    <meta name="twitter:image"
+        content="https://links.azaka.fun/images/twitter-banner.png">
+    <meta name="twitter:image:alt" content="Azaka Sekai avatar and branding">
+
+    <!-- Additional Meta Tags -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="language" content="English">
+    <meta name="rating" content="General">
+
+    <!-- Stylesheets -->
+    <link rel="preload" href="css/style.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="css/style.css">
+    </noscript>
+    <link rel="stylesheet" href="css/brands.css">
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Azaka Sekai",
+    "alternateName": "安坂星海",
+    "description": "silly VTuber, SynthV, threat intel things",
+    "url": "https://links.azaka.fun",
+    "image": "https://links.azaka.fun/images/avatar.png",
+    "jobTitle": "Content Creator",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Independent"
+    }
+  }
+  </script>
+    <style>
+        .contributors-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        /* Tablet - 2 columns */
+        @media (min-width: 768px) {
+            .contributors-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        /* Desktop - 3 columns */
+        @media (min-width: 1024px) {
+            .contributors-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        .contributor-card {
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 1rem;
+            background-image: linear-gradient(45deg,
+                    hsl(310deg 15% 80% / 30%) 50%,
+                    hsl(310deg 12% 90% / 10%) 80%);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-inner {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contributor-links {
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+            margin-top: auto;
+            padding-top: 1rem;
+        }
+
+        .card-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+            text-align: center;
+        }
+
+        .contributor-avatar {
+            width: 128px;
+            height: 128px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .contributor-info {
+            width: 100%;
+        }
+
+        .contributor-name {
+            margin: 0 0 0.25rem 0;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+        }
+
+        .contributor-title {
+            margin: 0;
+            font-size: 1rem;
+            color: #dadada;
+            white-space: nowrap;
+        }
+
+        .contributor-bio {
+            font-size: 0.95rem;
+            color: #ffffff;
+            margin: 0.75rem 0;
+        }
+
+        .contributor-tags {
+            list-style: none;
+            padding: 1rem 1rem 0 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+            margin: unset;
+        }
+
+        ul li {
+            margin: unset;
+        }
+
+        .contributor-tags li {
+            background: #444444;
+            border-radius: 999px;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.8rem;
+        }
+
+        .contributor-links a {
+            margin: 0.25rem;
+            font-size: 0.9rem;
+            color: #1a0dab;
+            text-decoration: none;
+        }
+
+
+        .contributor-links a:hover,
+        .contributor-links a:focus {
+            text-decoration: underline;
+        }
+
+
+        .social-icon-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.5rem;
+            border-radius: 8px;
+            min-width: 1vw;
+            min-height: 1vh;
+            background-image: linear-gradient(45deg,
+                    hsl(310deg 15% 30% / 40%) 50%,
+                    hsl(310deg 12% 40% / 30%) 80%);
+            border: 1px solid #ffffff6c;
+            transition: all 0.2s ease;
+        }
+
+        .social-icon-button:hover,
+        .social-icon-button:focus {
+            background: #1a1a1a;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .social-icon {
+            flex-shrink: 0;
+            filter: grayscale(100%);
+            width: 32px;
+            height: 32px;
+        }
+
+        .separator {
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+
+        .back-button-absolute {
+            position: absolute;
+            top: 5rem;
+            left: 5rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            padding: 0.5rem;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            color: #ffffff;
+            transition: all 0.2s ease;
+        }
+
+        .back-button-absolute:hover {
+            background: rgba(0, 0, 0, 0.5);
+            transform: translateX(-4px);
+        }
+
+        .back-button-absolute svg {
+            width: 18px;
+            height: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="inner" style="position: relative;">
+                <a href="../" class="back-button-absolute"
+                    aria-label="Back to home">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7" />
+                    </svg>
+                </a>
+                <div class="column">
+                    <h1 tabindex="0">
+                        <div>Credits</div>
+                    </h1>
+                    <div>
+                        <div tabindex="0">Thanks to the following people that
+                            has made Azaka possible!</div>
+                    </div>
+                </div>
+                <div class="separator">
+                    ˚ ༘`✦ ˑ ִָ 𓂃⊹.𖥔 ݁ 🪐˖
+                </div>
+                <div class="contributors-grid"
+                    aria-label="Project contributors">
+                    <article class="contributor-card"
+                        aria-label="Contributor profile for Jamama">
+                        <div class="card-inner">
+                            <header class="card-header"> <img
+                                    src="/images/credits/jamama.jpg"
+                                    alt="Avatar of Jamama"
+                                    class="contributor-avatar" />
+                                <div class="contributor-info">
+                                    <h3 class="contributor-name">赤醬 ✧ Jamama
+                                    </h3>
+                                    <p class="contributor-title">Artist / Rigger
+                                    </p>
+                                </div>
+                            </header>
+
+                            <ul class="contributor-tags"
+                                aria-label="Roles and areas">
+                                <li>v1/v2 Model</li>
+                                <li>Intro</li>
+                                <li>Outro</li>
+                            </ul>
+                            <div class="contributor-links"
+                                aria-label="External links">
+                                <a href="https://portaly.cc/Jamama"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Website">
+                                    <img src="images/icons/generic-website.svg"
+                                        alt="Website" class="social-icon" />
+                                </a>
+                                <a href="https://x.com/jamama_666"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on X">
+                                    <img src="images/icons/x.svg" alt="X"
+                                        class="social-icon" />
+                                </a>
+                                <a href="https://www.facebook.com/Jamamastrawberry"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on Facebook">
+                                    <img src="images/icons/facebook.svg"
+                                        alt="Facebook" class="social-icon" />
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="contributor-card"
+                        aria-label="Contributor profile for Kohi">
+                        <div class="card-inner">
+                            <header class="card-header"> <img
+                                    src="/images/credits/MomoiroKohi.jpg"
+                                    alt="Avatar of Kohi"
+                                    class="contributor-avatar" />
+                                <div class="contributor-info">
+                                    <h3 class="contributor-name">Momoiro Kohi
+                                    </h3>
+                                    <p class="contributor-title">Rigger</p>
+                                </div>
+                            </header>
+
+                            <ul class="contributor-tags"
+                                aria-label="Roles and areas">
+                                <li>v2 Model</li>
+                            </ul>
+                            <div class="contributor-links"
+                                aria-label="External links">
+                                <a href="https://x.com/MomoiroKohi"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on X">
+                                    <img src="images/icons/x.svg" alt="X"
+                                        class="social-icon" />
+                                </a>
+                                <a href="https://vgen.co/MomoiroKohi"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on vgen">
+                                    <img src="images/icons/vgen.png" alt="vgen"
+                                        class="social-icon" />
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="contributor-card"
+                        aria-label="Contributor profile for Novaj">
+                        <div class="card-inner">
+                            <header class="card-header"> <img
+                                    src="/images/credits/Novaj.jpg"
+                                    alt="Avatar of Novaj"
+                                    class="contributor-avatar" />
+                                <div class="contributor-info">
+                                    <h3 class="contributor-name">Novaj
+                                    </h3>
+                                    <p class="contributor-title">VBridger</p>
+                                </div>
+                            </header>
+
+                            <ul class="contributor-tags"
+                                aria-label="Roles and areas">
+                                <li>v2 Model</li>
+                            </ul>
+                            <div class="contributor-links"
+                                aria-label="External links">
+                                <a href="http://novaj.me/" target="_blank"
+                                    rel="noopener" class="social-icon-button"
+                                    aria-label="Website">
+                                    <img src="images/icons/generic-website.svg"
+                                        alt="Website" class="social-icon" />
+                                </a>
+                                <a href="https://x.com/justNovaj"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on X">
+                                    <img src="images/icons/x.svg" alt="X"
+                                        class="social-icon" />
+                                </a>
+                                <a href="https://vgen.co/justNovaj"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on Vgen">
+                                    <img src="images/icons/Vgen.png" alt="Vgen"
+                                        class="social-icon" />
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="contributor-card"
+                        aria-label="Contributor profile for fFrequence">
+                        <div class="card-inner">
+                            <header class="card-header"> <img
+                                    src="/images/credits/fFrequence.jpg"
+                                    alt="Avatar of fFrequence"
+                                    class="contributor-avatar" />
+                                <div class="contributor-info">
+                                    <h3 class="contributor-name">fFrequence
+                                    </h3>
+                                    <p class="contributor-title">Artist</p>
+                                </div>
+                            </header>
+
+                            <ul class="contributor-tags"
+                                aria-label="Roles and areas">
+                                <li>Graphics design</li>
+                                <li>Banner</li>
+                            </ul>
+                            <div class="contributor-links"
+                                aria-label="External links">
+                                <a href="https://x.com/Frequence_"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on X">
+                                    <img src="images/icons/x.svg" alt="X"
+                                        class="social-icon" />
+                                </a>
+                                <a href="https://bsky.app/profile/ffrequence.bsky.social"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on BlueSky">
+                                    <img src="images/icons/bluesky.svg"
+                                        alt="BlueSky" class="social-icon" />
+                                </a>
+                                <a href="https://vgen.co/ffrequence"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on Vgen">
+                                    <img src="images/icons/Vgen.png" alt="Vgen"
+                                        class="social-icon" />
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="contributor-card"
+                        aria-label="Contributor profile for almosthirteen">
+                        <div class="card-inner">
+                            <header class="card-header"> <img
+                                    src="/images/credits/almosthirteen.jpg"
+                                    alt="Avatar of almosthirteen"
+                                    class="contributor-avatar" />
+                                <div class="contributor-info">
+                                    <h3 class="contributor-name">almosthirteen
+                                    </h3>
+                                    <p class="contributor-title">Artist / Coding
+                                    </p>
+                                </div>
+                            </header>
+
+                            <ul class="contributor-tags"
+                                aria-label="Roles and areas">
+                                <li>Chat widget</li>
+                            </ul>
+                            <div class="contributor-links"
+                                aria-label="External links">
+                                <a href="https://x.com/almosthirteen"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on X">
+                                    <img src="images/icons/x.svg" alt="X"
+                                        class="social-icon" />
+                                </a>
+                                <a href="https://vgen.co/almosthirteen"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on Vgen">
+                                    <img src="images/icons/Vgen.png" alt="Vgen"
+                                        class="social-icon" />
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="contributor-card"
+                        aria-label="Contributor profile for haru">
+                        <div class="card-inner">
+                            <header class="card-header"> <img
+                                    src="/images/credits/haru.jpg"
+                                    alt="Avatar of haru"
+                                    class="contributor-avatar" />
+                                <div class="contributor-info">
+                                    <h3 class="contributor-name">haru
+                                    </h3>
+                                    <p class="contributor-title">Artist</p>
+                                </div>
+                            </header>
+
+                            <ul class="contributor-tags"
+                                aria-label="Roles and areas">
+                                <li>Logo</li>
+                            </ul>
+                            <div class="contributor-links"
+                                aria-label="External links">
+                                <a href="http://harukoti.com/" target="_blank"
+                                    rel="noopener" class="social-icon-button"
+                                    aria-label="Website">
+                                    <img src="images/icons/generic-website.svg"
+                                        alt="Website" class="social-icon" />
+                                </a>
+                                <a href="https://x.com/harukoti" target="_blank"
+                                    rel="noopener" class="social-icon-button"
+                                    aria-label="Follow on X">
+                                    <img src="images/icons/x.svg" alt="X"
+                                        class="social-icon" />
+                                </a>
+                                <a href="https://vgen.co/harukoti"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on Vgen">
+                                    <img src="images/icons/Vgen.png" alt="Vgen"
+                                        class="social-icon" />
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="contributor-card"
+                        aria-label="Contributor profile for myuphos">
+                        <div class="card-inner">
+                            <header class="card-header"> <img
+                                    src="/images/credits/myuphos.jpg"
+                                    alt="Avatar of myuphos"
+                                    class="contributor-avatar" />
+                                <div class="contributor-info">
+                                    <h3 class="contributor-name">myuphos
+                                    </h3>
+                                    <p class="contributor-title">Artist</p>
+                                </div>
+                            </header>
+
+                            <ul class="contributor-tags"
+                                aria-label="Roles and areas">
+                                <li>Schedule</li>
+                            </ul>
+                            <div class="contributor-links"
+                                aria-label="External links">
+                                <a href="https://x.com/myuphos" target="_blank"
+                                    rel="noopener" class="social-icon-button"
+                                    aria-label="Follow on X">
+                                    <img src="images/icons/x.svg" alt="X"
+                                        class="social-icon" />
+                                </a>
+                                <a href="http://vgen.co/myuphos" target="_blank"
+                                    rel="noopener" class="social-icon-button"
+                                    aria-label="Follow on Vgen">
+                                    <img src="images/icons/Vgen.png" alt="Vgen"
+                                        class="social-icon" />
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="contributor-card"
+                        aria-label="Contributor profile for Bone__Boom">
+                        <div class="card-inner">
+                            <header class="card-header"> <img
+                                    src="/images/credits/Bone__Boom.jpg"
+                                    alt="Avatar of Bone__Boom"
+                                    class="contributor-avatar" />
+                                <div class="contributor-info">
+                                    <h3 class="contributor-name">Bone__Boom
+                                    </h3>
+                                    <p class="contributor-title">Artist /
+                                        Animator</p>
+                                </div>
+                            </header>
+
+                            <ul class="contributor-tags"
+                                aria-label="Roles and areas">
+                                <li>BRB screen</li>
+                            </ul>
+                            <div class="contributor-links"
+                                aria-label="External links">
+                                <a href="https://x.com/Bone__Boom"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on X">
+                                    <img src="images/icons/x.svg" alt="X"
+                                        class="social-icon" />
+                                </a>
+                                <a href="http://bsky.app/profile/boneboom.bsky.social"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on BlueSky">
+                                    <img src="images/icons/bluesky.svg"
+                                        alt="BlueSky" class="social-icon" />
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="contributor-card"
+                        aria-label="Contributor profile for Clez">
+                        <div class="card-inner">
+                            <header class="card-header"> <img
+                                    src="/images/credits/Clez.jpg"
+                                    alt="Avatar of Clez"
+                                    class="contributor-avatar" />
+                                <div class="contributor-info">
+                                    <h3 class="contributor-name">Clez
+                                    </h3>
+                                    <p class="contributor-title">Animator</p>
+                                </div>
+                            </header>
+
+                            <ul class="contributor-tags"
+                                aria-label="Roles and areas">
+                                <li>Intro</li>
+                                <li>Outro</li>
+                                <li>Transition</li>
+                            </ul>
+                            <div class="contributor-links"
+                                aria-label="External links">
+                                <a href="https://x.com/ClezArts" target="_blank"
+                                    rel="noopener" class="social-icon-button"
+                                    aria-label="Follow on X">
+                                    <img src="images/icons/x.svg" alt="X"
+                                        class="social-icon" />
+                                </a>
+                                <a href="https://vgen.co/clezarts"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on VGen">
+                                    <img src="images/icons/vgen.png" alt="VGen"
+                                        class="social-icon" />
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="contributor-card"
+                        aria-label="Contributor profile for melo">
+                        <div class="card-inner">
+                            <header class="card-header"> <img
+                                    src="/images/credits/melo.jpg"
+                                    alt="Avatar of melo"
+                                    class="contributor-avatar" />
+                                <div class="contributor-info">
+                                    <h3 class="contributor-name">melo
+                                    </h3>
+                                    <p class="contributor-title">Artist</p>
+                                </div>
+                            </header>
+
+                            <ul class="contributor-tags"
+                                aria-label="Roles and areas">
+                                <li>Twitch "About" banners</li>
+                            </ul>
+                            <div class="contributor-links"
+                                aria-label="External links">
+                                <a href="https://x.com/waterme1o"
+                                    target="_blank" rel="noopener"
+                                    class="social-icon-button"
+                                    aria-label="Follow on X">
+                                    <img src="images/icons/x.svg" alt="X"
+                                        class="social-icon" />
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Parallax Pixel Background Animation -->
+    <div class="animated-background">
+        <div id="stars1"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </div>
+
+    <!-- End of Parallax Pixel Background Animation -->
+</body>
+
+</html>
